@@ -8,7 +8,7 @@ Cross browser Javascript library for v4.0 browsers.<br>
 About
 --
 
-ASMLIB was written in 2000 for the website http://assembler.org.  This library includes very simple animation functions that work across all v4.0-style browsers of that time period (Netscape 4, IE 4, Mozilla).  ASMLIB was the first cross browser animation library to support all of these browsers simultaneously.
+ASMLIB was written in 2000 for the website http://assembler.org.  This library includes very simple animation functions that work across all v4.0+ browsers of that time period (Netscape 4, IE 4, Mozilla).  ASMLIB was the first cross browser animation library to support all of these browsers simultaneously.
 
 It is being offered as a historical reference should someone need to build animations with Javascript in these browsers.
 
@@ -18,7 +18,7 @@ Usage
 All code is fully documented.  Below are the functions offered in ASMLIB:
 
 **getObject(obj)**<br>
-Convert an object string name into a valid object reference usable by any 4.0 browser.
+Convert an object string name into a valid object reference usable by any 4.0+ browser.
 
 **redrawScreeen()**<br>
 For Netscape 4 only.  Refreshes the browser window when resized to avoid Netscape CSS loss of info.
