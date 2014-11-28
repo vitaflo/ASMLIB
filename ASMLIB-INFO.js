@@ -123,11 +123,11 @@ function shiftTo(obj, x, y)
     obj.top = y + "px";
   }
   else if (ns4) {
-	 obj.moveTo(x,y);
+	obj.moveTo(x,y);
   } 
   else if (ie4) {
     obj.pixelLeft = x;
-	 obj.pixelTop = y;
+	obj.pixelTop = y;
   }
 }
 
@@ -149,11 +149,11 @@ function shiftBy(obj, deltaX, deltaY)
     obj.top = getTop(obj) + deltaY + "px";
   }
   else if (ns4) {
-	 obj.moveBy(deltaX,deltaY);
+	obj.moveBy(deltaX,deltaY);
   } 
   else if (ie4) {
     obj.pixelLeft += deltaX;
-	 obj.pixelTop += deltaY;
+	obj.pixelTop += deltaY;
   }
 }
 
@@ -226,8 +226,8 @@ function setBGColor(obj, color)
 ***********************************************************************/
 
 if (ns4) {
-   window.captureEvents(Event.RESIZE);     // Capture resize event.
-	window.onresize = redrawScreen;         // Redraw screen on resize.
+  window.captureEvents(Event.RESIZE);     // Capture resize event.
+  window.onresize = redrawScreen;         // Redraw screen on resize.
 }
 
 if (ie4) {

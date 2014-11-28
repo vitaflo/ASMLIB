@@ -18,7 +18,7 @@ Usage
 All code is fully documented.  Below are the functions offered in ASMLIB:
 
 **getObject(obj)**<br>
-Convert an object string name into a valid object reference usable by ASMLIB
+Convert an object string name into a valid object reference usable by any 4.0 browser.
 
 **redrawScreeen()**<br>
 For Netscape 4 only.  Refreshes the browser window when resized to avoid Netscape CSS loss of info.
